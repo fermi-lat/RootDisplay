@@ -2,7 +2,7 @@
 * @file RootMenu.cxx
 * @brief declaration and implementation of class RootMenu
 *
-*  $Header$
+*  $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.1.1.1 2003/08/25 18:43:29 heather Exp $
 */
 
 #include "GaudiKernel/AlgTool.h"
@@ -26,7 +26,7 @@
 * 
 *  
 
-* $Header$
+* $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.1.1.1 2003/08/25 18:43:29 heather Exp $
 */
 
 class RootMenu : public AlgTool, virtual public IGuiTool {
@@ -114,8 +114,8 @@ void RootMenu::finishSetup()
 		new SimpleCommand<RootMenu>(this, &RootMenu::setEventIndex));
 
 	// save this for later...once BuildIndex trouble is sorted out
-    //filemenu.addButton("set Root Run and Event...", 
-	//	new SimpleCommand<RootMenu>(this, &RootMenu::setRunEventPair));
+    filemenu.addButton("set Root Run and Event...", 
+		new SimpleCommand<RootMenu>(this, &RootMenu::setRunEventPair));
 
 }
 
