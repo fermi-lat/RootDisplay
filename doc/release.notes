@@ -1,0 +1,11 @@
+/** @file release.notes
+    @brief package RootDisplay
+
+
+ $Header: /nfs/slac/g/glast/ground/cvs/FluxDisplay/doc/release.notes,v 1.13 2003/07/01 02:10:45 burnett Exp $
+ 
+@verbatim
+ 
+ *   v0r0  20-aug-03 HMK initial tag
+@endverbatim
+ */
