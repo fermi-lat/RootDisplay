@@ -1,11 +1,11 @@
 package RootDisplay
-version v0r2p1
+version v0r2p2
 
-# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.5 2004/07/20 21:21:18 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.6 2004/07/22 06:15:30 heather Exp $
 
 
 #use FluxSvc 
-use RootIo v12r*
+use RootIo v*
 use GuiSvc v*
 
 use geomrep 
