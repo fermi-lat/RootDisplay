@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul 20 10:11:23 PDT 2004
+RootDisplay/src
+
+Modified Files:
+	RootMenu.cxx 
+Log Message:
+handle cancel properly in dialog boxes
+    *
+------------------------------------------------------------
 User: heather  Tue Jul  6 15:26:44 PDT 2004
 RootDisplay/doc
 
