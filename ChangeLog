@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Tue Jul  6 15:25:49 PDT 2004
+RootDisplay/src
+
+Modified Files:
+	mainpage.h 
+Log Message:
+use bool returned when setting run/event pair or index
+    *
+------------------------------------------------------------
 User: heather  Tue Jul  6 15:22:51 PDT 2004
 RootDisplay/src
 
