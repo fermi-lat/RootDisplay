@@ -1,7 +1,7 @@
 package RootDisplay
-version v0r1p0
+version v0r2
 
-# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.2 2004/06/10 18:55:46 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.3 2004/06/19 06:49:21 heather Exp $
 
 
 #use FluxSvc 
