@@ -1,7 +1,7 @@
 package RootDisplay
-version v0r2p0
+version v0r2p1
 
-# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.4 2004/07/06 22:22:32 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.5 2004/07/20 21:21:18 heather Exp $
 
 
 #use FluxSvc 
@@ -21,6 +21,7 @@ private
 # get flags to build shared library
 
 apply_pattern package_Cshlibflags
+private
 
 apply_pattern package_headers
 
