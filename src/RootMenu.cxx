@@ -2,7 +2,7 @@
 * @file RootMenu.cxx
 * @brief declaration and implementation of class RootMenu
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.1.1.1 2003/08/25 18:43:29 heather Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.2 2004/06/10 18:56:53 heather Exp $
 */
 
 #include "GaudiKernel/AlgTool.h"
@@ -26,7 +26,7 @@
 * 
 *  
 
-* $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.1.1.1 2003/08/25 18:43:29 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.2 2004/06/10 18:56:53 heather Exp $
 */
 
 class RootMenu : public AlgTool, virtual public IGuiTool {
@@ -41,14 +41,14 @@ class RootMenu : public AlgTool, virtual public IGuiTool {
 
     // call back for created button
     void setEventIndex();
-	void setRunEventPair();
+    void setRunEventPair();
 
     /// call back for the Menu.
     void finishSetup(); 
     void quit(){};
 
-	int index()const {return m_index;}
-	std::pair<int, int> runEvent()const {return m_runEventPair; }
+    int index()const {return m_index;}
+    std::pair<int, int> runEvent()const {return m_runEventPair; }
     IRootIoSvc* rootIoService()const{return m_rootioSvc;}
 
 private:
@@ -122,16 +122,24 @@ void RootMenu::finishSetup()
 void RootMenu::setEventIndex()
 {
     // purpose: callback for buttons to set a root index
-    m_guiMgr->menu().query("Enter Root Index", &m_index);
-	m_rootioSvc->setIndex(m_index);
+    // Loop until we find a good index
+    bool DONE = false;
+    while (!DONE) {
+        m_guiMgr->menu().query("Enter Root Index", &m_index);
+        DONE = m_rootioSvc->setIndex(m_index);
+    }
 }
 
 void RootMenu::setRunEventPair() {
-	int run, evt;
-	m_guiMgr->menu().query("Enter Root Run Number", &run);
-	m_guiMgr->menu().query("Enter Root Event Number", &evt);
-	m_runEventPair = std::pair<int, int>(run, evt);
-	// Make sure Index is set to -1
-	m_rootioSvc->setIndex(-1);
-	m_rootioSvc->setRunEventPair(m_runEventPair);
+    int run, evt;
+    bool DONE = false;
+    // Loop until we find a good run/event id pair
+    while (!DONE) {
+        m_guiMgr->menu().query("Enter Root Run Number", &run);
+        m_guiMgr->menu().query("Enter Root Event Number", &evt);
+        m_runEventPair = std::pair<int, int>(run, evt);
+        // Make sure Index is set to -1
+        m_rootioSvc->setIndex(-1);
+        DONE = m_rootioSvc->setRunEventPair(m_runEventPair);
+    }
 }
