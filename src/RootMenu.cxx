@@ -2,7 +2,7 @@
 * @file RootMenu.cxx
 * @brief declaration and implementation of class RootMenu
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.2 2004/06/10 18:56:53 heather Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.3 2004/07/06 22:22:51 heather Exp $
 */
 
 #include "GaudiKernel/AlgTool.h"
@@ -26,7 +26,7 @@
 * 
 *  
 
-* $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.2 2004/06/10 18:56:53 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.3 2004/07/06 22:22:51 heather Exp $
 */
 
 class RootMenu : public AlgTool, virtual public IGuiTool {
@@ -125,8 +125,11 @@ void RootMenu::setEventIndex()
     // Loop until we find a good index
     bool DONE = false;
     while (!DONE) {
+        m_index = -99;
         m_guiMgr->menu().query("Enter Root Index", &m_index);
+        if (m_index == -99) return; 
         DONE = m_rootioSvc->setIndex(m_index);
+        
     }
 }
 
@@ -135,8 +138,11 @@ void RootMenu::setRunEventPair() {
     bool DONE = false;
     // Loop until we find a good run/event id pair
     while (!DONE) {
+        run = -99;
+        evt = -99;
         m_guiMgr->menu().query("Enter Root Run Number", &run);
         m_guiMgr->menu().query("Enter Root Event Number", &evt);
+        if ((run == -99) || (evt == -99)) return;
         m_runEventPair = std::pair<int, int>(run, evt);
         // Make sure Index is set to -1
         m_rootioSvc->setIndex(-1);
