@@ -1,4 +1,26 @@
 ------------------------------------------------------------
+TAG
+Tag name: v0r2p3, operation: add
+Package: RootDisplay
+User: heather  Mon Jun 27 21:53:41 2005
+Files:
+  RootDisplay/.cvsignore  1.1.1.1
+  RootDisplay/ChangeLog  1.20
+  RootDisplay/cmt/.cvsignore  1.1.1.1
+  RootDisplay/cmt/NMake  1.1.1.1
+  RootDisplay/cmt/requirements  1.8
+  RootDisplay/doc/release.notes  1.8
+  RootDisplay/src/mainpage.h  1.2
+  RootDisplay/src/defaultRootDisplayOptions.txt  1.1.1.1
+  RootDisplay/src/RootMenu.cxx  1.4
+  RootDisplay/src/RootDisplay_dll.cxx  1.1.1.1
+  RootDisplay/src/RootDisplay_load.cxx  1.1.1.1
+  RootDisplay/src/test/RootDisplayTest.cxx  1.1.1.1
+  RootDisplay/src/test/jobOptions.txt  1.1.1.1
+  RootDisplay/src/test/RootDisplayTest.h  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: heather  Mon Jun 27 21:52:53 PDT 2005
 RootDisplay/doc
 
