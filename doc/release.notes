@@ -2,10 +2,11 @@
     @brief package RootDisplay
 
 
- $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.7 2004/12/17 19:55:39 heather Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.8 2005/06/28 04:52:53 heather Exp $
  
 @verbatim
  
+ *   v0r3   30-oct-07 HMK use gr_app
  *   v0r2p3 27-jun-05 HMK add author to requirements
  *   v0r2p2 17-dec-04 HMK Use any RootIo
  *   v0r2p1 22-jul-04 HMK Address JIRA CMT-25, bug in CMT, add extra private statement
