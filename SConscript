@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header$
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/SConscript,v 1.1 2008/08/15 21:22:44 ecephas Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: RootDisplay-00-03-00
 Import('baseEnv')
@@ -24,25 +24,24 @@ if baseEnv['PLATFORM'] != 'win32':
 # The libraries from the previous statement are located at /usr/X11R6 according to ../gui/cmt/requirements
 
 if baseEnv['PLATFORM'] == 'win32':
-	progEnv.Tool('addLibrary', library = 'user32')
-	progEnv.Tool('addLibrary', library = 'gdi32')
-	progEnv.Tool('addLibrary', library = 'winspool')
-	progEnv.Tool('addLibrary', library = 'comdlg32')
-	progEnv.Tool('addLibrary', library = 'shell32')
-	progEnv.Tool('addLibrary', library = 'comdlg32')
-	progEnv.Tool('addLibrary', library = 'shell32')
-	progEnv.AppendUnique(CCFLAGS = '/include:_GuiSvc_loadRef')
+	progEnv.Tool('addLibrary', library = ['user32'])
+	progEnv.Tool('addLibrary', library = ['gdi32'])
+	progEnv.Tool('addLibrary', library = ['winspool'])
+	progEnv.Tool('addLibrary', library = ['comdlg32'])
+	progEnv.Tool('addLibrary', library = ['shell32'])
+	progEnv.Tool('addLibrary', library = ['comdlg32'])
+	progEnv.Tool('addLibrary', library = ['shell32'])
 
 #------------
 
 if baseEnv['PLATFORM'] != 'win32':
-	progEnv.AppendUnique(LINKFLAGS = '-u GuiSvc_loadRef')
-#conversion of gui_linkopts from cmt/requirements file
+	progEnv.AppendUnique(LINKFLAGS = ['-u GuiSvc_loadRef'])
 
-if baseEnv['PLATFORM'] != 'win32':
-	progEnv.Tool('guiLib')
-#---------------
-	
-RootDisplayTest = progEnv.Program('RootDisplayTest',listFiles(['src/test/*.cxx']))
-test_RootDisplay = progEnv.Program('test_RootDisplay',[ 'src/DummyTestMain.cxx'])
-progEnv.Tool('registerObjects', package = 'RootDisplay', libraries = [RootDisplay], testApps = [RootDisplayTest,test_RootDisplay], includes = listFiles(['RootDisplay/*.h']))
+#RootDisplayTest = progEnv.Program('RootDisplayTest',listFiles(['src/test/*.cxx']))
+
+progEnv.Tool('registerObjects', package = 'RootDisplay', 
+	libraries = [RootDisplay], 
+	includes = listFiles(['RootDisplay/*.h']))
+
+
+
