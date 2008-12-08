@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: RootDisplay-00-03-00, operation: add
+Package: RootDisplay
+User: ecephas  Mon Dec  8 13:40:14 2008
+Files:
+  RootDisplay/SConscript  1.2
+  RootDisplay/SConscript  1.2
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 13:40:08 PST 2008
 GlastRelease-scons/RootDisplay
 
