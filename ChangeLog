@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+TAG
+Tag name: RootDisplay-00-03-00, operation: add
+Package: RootDisplay
+User: ecephas  Mon Dec  8 16:08:41 2008
+Files:
+  RootDisplay/RootDisplayLib.py  1.2
+  RootDisplay/RootDisplayLib.py  1.2
+
+    *
+------------------------------------------------------------
 User: ecephas  Mon Dec  8 16:08:35 PST 2008
 GlastRelease-scons/RootDisplay
 
