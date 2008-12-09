@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: ecephas  Mon Dec  8 16:08:35 PST 2008
+GlastRelease-scons/RootDisplay
+
+Modified Files:
+	RootDisplayLib.py 
+Log Message:
+Check in RootDisplayLib.py for RootDisplay v0r3 (branch-tag, GlastReleasev15r49).
+    *
+------------------------------------------------------------
 TAG
 Tag name: RootDisplay-00-03-00, operation: add
 Package: RootDisplay
