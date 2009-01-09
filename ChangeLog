@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-15-49-00, operation: add
+Package: RootDisplay
+User: glastrm  Fri Jan  9 13:24:29 2009
+Files:
+  RootDisplay/RootDisplayLib.py  1.2
+  RootDisplay/SConscript  1.2
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-15-50-10, operation: del
 Package: RootDisplay
 User: glastrm  Fri Jan  9 08:31:07 2009
