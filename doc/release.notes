@@ -2,9 +2,10 @@
     @brief package RootDisplay
 
 
- $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.8 2005/06/28 04:52:53 heather Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.9 2007/10/30 03:12:50 heather Exp $
  
 @verbatim
+ * EOH *
  
  *   v0r3   30-oct-07 HMK use gr_app
  *   v0r2p3 27-jun-05 HMK add author to requirements
