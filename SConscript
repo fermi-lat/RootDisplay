@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/SConscript,v 1.1 2008/08/15 21:22:44 ecephas Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/SConscript,v 1.3 2009/01/23 00:07:16 ecephas Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: RootDisplay-00-03-00
 Import('baseEnv')
@@ -10,7 +10,8 @@ libEnv = baseEnv.Clone()
 
 libEnv.Tool('RootDisplayLib', depsOnly = 1)
 
-RootDisplay = libEnv.SharedLibrary('RootDisplay', listFiles(['src/*.cxx','src/Dll/*.cxx']))
+RootDisplay = libEnv.SharedLibrary('RootDisplay',
+                                   listFiles(['src/*.cxx','src/Dll/*.cxx']))
 
 progEnv.Tool('RootDisplayLib')
 progEnv.Tool('GuiSvcLib')
@@ -39,8 +40,8 @@ if baseEnv['PLATFORM'] != 'win32':
 
 #RootDisplayTest = progEnv.Program('RootDisplayTest',listFiles(['src/test/*.cxx']))
 
-progEnv.Tool('registerObjects', package = 'RootDisplay', 
-	libraries = [RootDisplay], 
+progEnv.Tool('registerTargets', package = 'RootDisplay', 
+	libraryCxts = [[RootDisplay, libEnv]], 
 	includes = listFiles(['RootDisplay/*.h']))
 
 
