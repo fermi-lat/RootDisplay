@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:39:52 PDT 2010
+GlastRelease-scons/RootDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: RootDisplay-00-03-01, operation: add
 Package: RootDisplay
