@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/SConscript,v 1.5 2009/11/10 01:29:09 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/SConscript,v 1.6 2010/06/11 00:39:52 jrb Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
-# Version: RootDisplay-00-03-01
+# Version: RootDisplay-00-03-02
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
