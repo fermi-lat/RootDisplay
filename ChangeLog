@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: heather  Fri Sep 17 20:52:12 PDT 2010
+RootDisplay/cmt
+
+Modified Files:
+      Tag: GlastReleasev18r6p1
+	requirements 
+Log Message:
+Gaudi v21r7 udpates
+    *
+------------------------------------------------------------
 TAG
 Tag name: RootDisplay-00-03-02, operation: add
 Package: RootDisplay
