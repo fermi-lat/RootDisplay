@@ -1,5 +1,29 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease_Pass7-17-35-23-gr10, operation: add
+Package: RootDisplay
+User: heather  Fri Aug  5 11:59:12 2011
+Files:
+  RootDisplay/.cvsignore  1.2
+  RootDisplay/RootDisplayLib.py  1.4
+  RootDisplay/ChangeLog  1.47
+  RootDisplay/SConscript  1.7
+  RootDisplay/cmt/.cvsignore  1.1.1.1
+  RootDisplay/cmt/NMake  1.1.1.1
+  RootDisplay/cmt/requirements  1.11
+  RootDisplay/doc/release.notes  1.12
+  RootDisplay/src/mainpage.h  1.2
+  RootDisplay/src/defaultRootDisplayOptions.txt  1.1.1.1
+  RootDisplay/src/RootMenu.cxx  1.4
+  RootDisplay/src/RootDisplay_dll.cxx  1.1.1.1
+  RootDisplay/src/RootDisplay_load.cxx  1.1.1.1
+  RootDisplay/src/test/RootDisplayTest.cxx  1.1.1.1
+  RootDisplay/src/test/jobOptions.txt  1.1.1.1
+  RootDisplay/src/test/RootDisplayTest.h  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease_Pass7-17-35-23-gr09, operation: add
 Package: RootDisplay
 User: heather  Thu Aug  4 13:08:54 2011
