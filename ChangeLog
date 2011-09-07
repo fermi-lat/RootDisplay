@@ -1,5 +1,21 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr04, operation: add
+Package: RootDisplay
+User: heather  Wed Sep  7 14:19:01 2011
+Files:
+  RootDisplay/.cvsignore  1.2
+  RootDisplay/RootDisplayLib.py  1.4
+  RootDisplay/ChangeLog  1.47
+  RootDisplay/SConscript  1.7
+  RootDisplay/cmt/.cvsignore  1.1.1.1
+  RootDisplay/cmt/NMake  1.1.1.1
+  RootDisplay/cmt/requirements  1.11
+  RootDisplay/doc/release.notes  1.12
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-03-07, operation: add
 Package: RootDisplay
 User: heather  Wed Sep  7 10:27:01 2011
