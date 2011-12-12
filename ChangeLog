@@ -1,5 +1,16 @@
 ------------------------------------------------------------
 User: heather  Mon Dec 12 12:55:17 PST 2011
+GlastRelease-scons/RootDisplay/src
+
+Modified Files:
+	RootMenu.cxx 
+Removed Files:
+	RootDisplay_dll.cxx RootDisplay_load.cxx 
+Log Message:
+merge Gaudi v21r7
+    *
+------------------------------------------------------------
+User: heather  Mon Dec 12 12:55:17 PST 2011
 GlastRelease-scons/RootDisplay/doc
 
 Modified Files:
