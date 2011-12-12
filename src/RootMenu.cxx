@@ -2,7 +2,7 @@
 * @file RootMenu.cxx
 * @brief declaration and implementation of class RootMenu
 *
-*  $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.3 2004/07/06 22:22:51 heather Exp $
+*  $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/src/RootMenu.cxx,v 1.4.648.1 2010/09/18 03:52:12 heather Exp $
 */
 
 #include "GaudiKernel/AlgTool.h"
@@ -26,7 +26,7 @@
 * 
 *  
 
-* $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/src/RootMenu.cxx,v 1.3 2004/07/06 22:22:51 heather Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/src/RootMenu.cxx,v 1.4.648.1 2010/09/18 03:52:12 heather Exp $
 */
 
 class RootMenu : public AlgTool, virtual public IGuiTool {
@@ -63,8 +63,9 @@ private:
 
 
 // Static factory for instantiation of algtool objects
-static ToolFactory<RootMenu> s_factory;
-const IToolFactory& RootMenuFactory = s_factory;
+//static ToolFactory<RootMenu> s_factory;
+//const IToolFactory& RootMenuFactory = s_factory;
+DECLARE_TOOL_FACTORY(RootMenu);
 
 // Standard Constructor
 RootMenu::RootMenu(const std::string& type, 
