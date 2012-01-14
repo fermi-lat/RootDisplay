@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/SConscript,v 1.7 2010/06/12 22:39:57 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/RootDisplay/SConscript,v 1.8 2011/12/12 20:55:17 heather Exp $
 # Authors: Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 # Version: RootDisplay-00-04-00
 Import('baseEnv')
@@ -10,8 +10,8 @@ libEnv = baseEnv.Clone()
 
 libEnv.Tool('addLinkDeps', package='RootDisplay', toBuild='component')
 
-RootDisplay = libEnv.SharedLibrary('RootDisplay',
-                                   listFiles(['src/*.cxx','src/Dll/*.cxx']))
+RootDisplay =libEnv.ComponentLibrary('RootDisplay',
+				     listFiles(['src/*.cxx']))
 
 progEnv.Tool('RootDisplayLib')
 progEnv.Tool('GuiSvcLib')
