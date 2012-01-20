@@ -1,4 +1,26 @@
 ------------------------------------------------------------
+TAG
+Tag name: RootDisplay-00-04-02, operation: add
+Package: RootDisplay
+User: jrb  Fri Jan 20 15:01:14 2012
+Files:
+  RootDisplay/.cvsignore  1.2
+  RootDisplay/RootDisplayLib.py  1.4
+  RootDisplay/ChangeLog  1.104
+  RootDisplay/SConscript  1.12
+  RootDisplay/cmt/.cvsignore  1.1.1.1
+  RootDisplay/cmt/NMake  1.1.1.1
+  RootDisplay/cmt/requirements  1.14
+  RootDisplay/doc/release.notes  1.15
+  RootDisplay/src/mainpage.h  1.2
+  RootDisplay/src/defaultRootDisplayOptions.txt  1.1.1.1
+  RootDisplay/src/RootMenu.cxx  1.5
+  RootDisplay/src/test/RootDisplayTest.cxx  1.1.1.1
+  RootDisplay/src/test/jobOptions.txt  1.1.1.1
+  RootDisplay/src/test/RootDisplayTest.h  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: jrb  Fri Jan 20 14:57:18 PST 2012
 RootDisplay/cmt
 
