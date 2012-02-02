@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: heather  Thu Feb  2 09:50:44 PST 2012
+RootDisplay/src
+
+Added Files:
+	RootDisplaySvc.cxx RootDisplaySvc.h 
+Log Message:
+add RootDisplaySvc
+    *
+------------------------------------------------------------
+User: heather  Thu Feb  2 09:50:44 PST 2012
 RootDisplay/doc
 
 Modified Files:
