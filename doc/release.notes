@@ -2,11 +2,12 @@
     @brief package RootDisplay
 
 
- $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.14 2012/01/14 23:15:51 jrb Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.15 2012/01/20 22:57:18 jrb Exp $
  
 @verbatim
  * EOH *
  
+ RootDisplay-00-05-00 23-Jan-2012    hmk Add RootDisplaySvc to handle IGuiTool
  RootDisplay-00-04-02 20-Jan-2012    jrb SCons adjustment for GuiSvc component library
  RootDisplay-00-04-01 14-Jan-2012    jrb minor new gaudi/SCons fix
  RootDisplay-00-04-00 08-Dec-2011    hmk Merge Gaudi v21r7
