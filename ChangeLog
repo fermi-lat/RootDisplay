@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: heather  Fri Mar 30 09:10:29 PDT 2012
-RootDisplay/doc
-
-Modified Files:
-	release.notes 
-Log Message:
-forcing a new latest build
-    *
-------------------------------------------------------------
-User: heather  Fri Mar 30 09:10:29 PDT 2012
-RootDisplay/cmt
-
-Modified Files:
-	requirements 
-Log Message:
-forcing a new latest build
-    *
-------------------------------------------------------------
-User: heather  Fri Mar 30 09:10:29 PDT 2012
-RootDisplay
-
-Modified Files:
-	SConscript 
-Log Message:
-forcing a new latest build
-    *
-------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-rp02, operation: add
 Package: RootDisplay
