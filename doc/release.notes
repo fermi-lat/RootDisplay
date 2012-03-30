@@ -2,11 +2,13 @@
     @brief package RootDisplay
 
 
- $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.15 2012/01/20 22:57:18 jrb Exp $
+ $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/doc/release.notes,v 1.16 2012/02/02 17:50:44 heather Exp $
  
 @verbatim
  * EOH *
  
+ RootDisplay-00-05-01 30-Mar-2012    hmk Creating a tag to force a LATEST
+                                     No code changes
  RootDisplay-00-05-00 23-Jan-2012    hmk Add RootDisplaySvc to handle IGuiTool
  RootDisplay-00-04-02 20-Jan-2012    jrb SCons adjustment for GuiSvc component library
  RootDisplay-00-04-01 14-Jan-2012    jrb minor new gaudi/SCons fix

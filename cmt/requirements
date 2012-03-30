@@ -1,9 +1,9 @@
 package RootDisplay
-version v0r5p0
+version v0r5p1
 
 author Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 
-# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.14 2012/01/20 22:57:18 jrb Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.15 2012/02/02 17:50:44 heather Exp $
 
 
 #use FluxSvc 
