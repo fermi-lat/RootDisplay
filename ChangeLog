@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: RootDisplay
+User: heather  Tue Apr 17 11:45:56 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: RootDisplay
 User: heather  Tue Apr 17 10:33:13 2012
 Files:
   RootDisplay/src/test/RootDisplayTest.cxx  1.1.1.1
