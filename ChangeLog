@@ -4,6 +4,17 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: RootDisplay
 User: heather  Tue Apr 17 10:33:13 2012
 Files:
+  RootDisplay/cmt/.cvsignore  1.1.1.1
+  RootDisplay/cmt/NMake  1.1.1.1
+  RootDisplay/cmt/requirements  1.11
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: RootDisplay
+User: heather  Tue Apr 17 10:33:13 2012
+Files:
   RootDisplay/.cvsignore  1.2
   RootDisplay/RootDisplayLib.py  1.4
   RootDisplay/ChangeLog  1.47
