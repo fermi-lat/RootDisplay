@@ -4,6 +4,19 @@ Tag name: GlastRelease-17-35-24-rp05, operation: add
 Package: RootDisplay
 User: heather  Tue Apr 17 10:33:13 2012
 Files:
+  RootDisplay/src/mainpage.h  1.2
+  RootDisplay/src/defaultRootDisplayOptions.txt  1.1.1.1
+  RootDisplay/src/RootMenu.cxx  1.4
+  RootDisplay/src/RootDisplay_dll.cxx  1.1.1.1
+  RootDisplay/src/RootDisplay_load.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-rp05, operation: add
+Package: RootDisplay
+User: heather  Tue Apr 17 10:33:13 2012
+Files:
   RootDisplay/doc/release.notes  1.12
 
     *
