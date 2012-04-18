@@ -2,6 +2,14 @@
 TAG
 Tag name: GlastRelease-17-35-24-gr26, operation: add
 Package: RootDisplay
+User: heather  Tue Apr 17 17:21:14 2012
+Files:
+
+    *
+------------------------------------------------------------
+TAG
+Tag name: GlastRelease-17-35-24-gr26, operation: add
+Package: RootDisplay
 User: heather  Tue Apr 17 14:18:28 2012
 Files:
   RootDisplay/.cvsignore  1.2
