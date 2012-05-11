@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Thu May 10 21:41:40 PDT 2012
+RootDisplay
+
+Modified Files:
+	SConscript 
+Log Message:
+ditch dummy test
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-17-35-24-gr31, operation: add
 Package: RootDisplay
