@@ -1,9 +1,9 @@
 package RootDisplay
-version v0r5p1
+version v0r5p2
 
 author Heather Kelly <heather@milkyway.gsfc.nasa.gov>
 
-# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.15 2012/02/02 17:50:44 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/RootDisplay/cmt/requirements,v 1.16 2012/03/30 16:10:29 heather Exp $
 
 
 #use FluxSvc 
@@ -47,4 +47,4 @@ macro_append RootDisplay_headers "" WIN32 "test/*.txt "
 application RootDisplayTest ${GlastMain} ${Win32Resource} ${WinMain} ${RootDisplay_headers} 
 
 
-apply_pattern dummy_test
+#apply_pattern dummy_test
